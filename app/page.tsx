@@ -5,6 +5,7 @@ import Section from "components/Section";
 import Footer from "components/Footer";
 import Accordion from "components/Accordion";
 import Reviews from "components/Reviews";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Page() {
   return (
