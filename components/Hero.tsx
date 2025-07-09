@@ -28,9 +28,11 @@ export default function Hero() {
 
           <div className="flex justify-center space-x-6">
               <Link
-                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  href="https://www.roblox.com/games/137628283909891/RELEASE-Goalbound"
                   className="bg-black text-white dark:bg-white dark:text-black px-5 py-2 rounded-md text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition duration-300"
-              >Stay tuned
+              >Play Goalbound
               </Link>
           </div>
       </section>
