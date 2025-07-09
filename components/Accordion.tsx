@@ -40,18 +40,28 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, t
 
 const defaultAccordionItems = [
   {
-    title: "Sign up for free",
-    content: "Start your journey with a 34-day trial. It's easy no credit card or commitment.",
+    title: "Title",
+    content: "Title：Goalbound",
   },
   {
-    title: "Easy to use",
-    content:
-      "Our app is designed to be user-friendly and easy to use. We want to provide a seamless experience for your users so that you can focus on what matters.",
+    title: "Developer",
+    content: "Developer：Goalbound Studios",
   },
   {
-    title: "Focus on what matters",
-    content:
-      "With better financial management, you can reduce money-related stress and focus on what matters most. More to come.",
+    title: "Platform",
+    content: "Platform：Roblox",
+  },
+  {
+    title: "Genre",
+    content: "Genre：Anime Sports Simulation (Soccer)",
+  },
+  {
+    title: "Inspiration",
+    content: "Inspiration：Inspired by popular soccer anime and manga",
+  },
+  {
+    title: "Status",
+    content: "Status: BETA RELEASE (Actively Developed & Updated as of April 17, 2025)",
   },
 ];
 

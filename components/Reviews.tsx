@@ -4,8 +4,6 @@ interface ReviewData {
   rating: number;
   title: string;
   content: string;
-  author: string;
-  designation: string;
 }
 
 interface ReviewsProps {
@@ -15,35 +13,27 @@ interface ReviewsProps {
 const defaultReviews: ReviewData[] = [
   {
     rating: 5,
-    title: "Best app ever!",
+    title: "What kind of game is Goalbound?",
     content:
-      "This app has been a game-changer for me! It's made tracking my daily activities so much easier. I love how intuitive and user-friendly it is.",
-    author: "Jonas Aly",
-    designation: "Founder @ Company",
+      "Goalbound is an exciting anime-inspired soccer game on Roblox that features 5v5 dynamic soccer matches. Players can choose unique characters with powerful abilities, compete in various game modes, and customize their gameplay experience.",
   },
   {
     rating: 5,
-    title: "Super helpful to stay organized",
+    title: "when is Goalbound coming out?",
     content:
-      "I can't thank this app enough for helping me stay on top of my tasks. The reminders have saved me from missing important deadlines, and I'm much more organized now.",
-    author: "Mark Bures",
-    designation: "Businessman",
+      "Goalbound is an upcoming Roblox soccer game inspired by Blue Lock, set to release in June 2025. Goalbound is currently in Beta Release and receives regular updates from the developers (Current.), ",
   },
   {
     rating: 5,
-    title: "Great app that saves time",
+    title: "Are there different game modes in Goalbound?",
     content:
-      "The app's integration with my other tools is seamless. I can easily check my progress and activities without having to switch between multiple platforms.",
-    author: "William Kolas",
-    designation: "Student",
+      "Yes! Goalbound offers multiple game modes, including quick matches for casual play, tournaments for competitive gameplay, and special events that bring new challenges and rewards to the game.",
   },
   {
     rating: 4,
-    title: "Seriously life changing app!",
+    title: "How to obtain Goalbound codes roblox?",
     content:
-      "The insights and reports have been eye-opening. I now have a better understanding of my habits and can make adjustments to improve my productivity.",
-    author: "Andrew Chan",
-    designation: "Manager @ AB Company",
+      "Participate in the Goalbound community on Roblox or other social platforms where players share codes, strategies, and tips. Discord is often a great place to find new codes from other players or developers.",
   },
 ];
 
@@ -52,7 +42,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews = defaultReviews }) => {
     <section className="py-24 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-8 text-gray-900 dark:text-white">
-          A beautiful reviews section
+          Frequently Asked Questions (FAQ)
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
           {reviews.map((review, index) => (

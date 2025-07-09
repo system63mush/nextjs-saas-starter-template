@@ -4,16 +4,12 @@ interface ReviewProps {
   rating: number;
   title: string;
   content: string;
-  author: string;
-  designation: string;
 }
 
 const Review: React.FC<ReviewProps> = ({
   rating = 5,
   title = "Default Title",
   content = "Default content for the review.",
-  author = "John Doe",
-  designation = "Customer",
 }) => {
   return (
     <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
@@ -24,12 +20,6 @@ const Review: React.FC<ReviewProps> = ({
       </div>
       <h3 className="text-xl mb-2 text-gray-900 dark:text-white">{title}</h3>
       <p className="text-gray-600 dark:text-gray-300 mb-4 font-light">{content}</p>
-      <div className="flex items-center">
-        <div>
-          <p className="text-gray-900 dark:text-white">{author}</p>
-          <p className="text-sm text-gray-500 dark:text-gray-400 font-light">{designation}</p>
-        </div>
-      </div>
     </div>
   );
 };
