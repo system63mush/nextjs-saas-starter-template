@@ -11,10 +11,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-      </head>
-      <body className="bg-white dark:bg-black min-h-screen">
+    <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+        <link rel="canonical" href="https://goalbound.codes/"/>
+    </head>
+    <body className="bg-white dark:bg-black min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
         </ThemeProvider>
