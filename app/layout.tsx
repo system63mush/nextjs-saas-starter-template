@@ -30,6 +30,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Goalbound Codes for Rewards and Upgrades",
+        site: "https://goalbound.codes",
         description:
             "Unlock exciting in-game rewards with Goalbound codes! Use these codes to get free spins, new characters, and valuable items to enhance your gameplay.",
         images: [
