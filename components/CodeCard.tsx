@@ -4,11 +4,14 @@ import {useState} from 'react';
 
 import {FiCheckCircle, FiBell, FiXCircle} from 'react-icons/fi'
 
+
+type StatusType = 'LATEST' | 'WORKING' | 'EXPIRED'
+
 interface CodeCardProps {
     code: string
     reward: string
     date: string
-    status: 'LATEST' | 'WORKING' | 'EXPIRED'
+    status: StatusType
 }
 
 export function CodeCard({code, reward, date, status}: CodeCardProps) {

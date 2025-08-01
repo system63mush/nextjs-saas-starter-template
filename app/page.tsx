@@ -10,9 +10,14 @@ import Reviews from "components/Reviews";
 import {useState} from 'react';
 import {CodeCard} from 'components/CodeCard';
 
-type TabType = 'LATEST' | 'WORKING' | 'EXPIRED'
+type StatusType = 'LATEST' | 'WORKING' | 'EXPIRED'
 
-const allCodes = [
+const allCodes: {
+    code: string
+    reward: string
+    date: string
+    status: StatusType
+}[] =  [
     {code: 'UPD3SRY', reward: 'Lucky Spins', date: '2025/7/31', status: 'LATEST'},
     {code: 'UPD3', reward: 'Lucky Spins', date: '2025/7/31', status: 'LATEST'},
     {code: 'HOTFIX', reward: 'Lucky Spins', date: '2025/7/31', status: 'LATEST'},
