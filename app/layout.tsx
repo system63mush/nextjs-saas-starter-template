@@ -2,6 +2,7 @@ import type {Metadata} from "next";
 import {ThemeProvider} from "next-themes";
 
 import "styles/globals.css";
+import Script from "next/script";
 
 export const metadata = {
     title: "Goalbound Codes for Rewards and Upgrades",
@@ -56,6 +57,18 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
         <head>
             <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
             <link rel="canonical" href="https://goalbound.codes/"/>
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-8FLR53176S"
+                strategy="afterInteractive"
+            />
+            <Script id="gtag-init" strategy="afterInteractive">
+                {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-8FLR53176S');
+          `}
+            </Script>
         </head>
         <body className="bg-white dark:bg-black min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
