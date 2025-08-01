@@ -19,7 +19,7 @@ export const metadata = {
         type: "website",
         images: [
             {
-                url: "https://goalbound.codes/_next/image?url=%2Fproducts%2FGoalbound%20index.png&w=640&q=75",
+                url: "https://goalbound.codes/products/GoalboundCodes.png",
                 alt: "Goalbound Codes for Rewards and Upgrades",
                 width: 1920,
                 height: 1080,
@@ -34,7 +34,7 @@ export const metadata = {
             "Unlock exciting in-game rewards with Goalbound codes! Use these codes to get free spins, new characters, and valuable items to enhance your gameplay.",
         images: [
             {
-                url: "https://goalbound.codes/_next/image?url=%2Fproducts%2FGoalbound%20index.png&w=640&q=75",
+                url: "https://goalbound.codes/products/GoalboundCodes.png",
                 alt: "Goalbound Codes for Rewards and Upgrades",
             },
         ],
@@ -83,6 +83,32 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
             })(window, document, "clarity", "script", "snwq484iba");
           `}
             </Script>
+            <Script id="structured-data" type="application/ld+json" strategy="afterInteractive">
+                {`
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Goalbound Codes",
+      "url": "https://goalbound.codes",
+      "description": "Unlock free Goalbound spins, characters, and more with the latest codes for July 2025.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Goalbound",
+        "url": "https://goalbound.codes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://goalbound.codes/products/GoalboundCodes.png"
+        }
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://goalbound.codes/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  `}
+            </Script>
+
         </head>
         <body className="bg-white dark:bg-black min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
