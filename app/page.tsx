@@ -10,12 +10,13 @@ import Reviews from "components/Reviews";
 import {useState} from 'react';
 import {CodeCard} from 'components/CodeCard';
 
+type TabType = 'LATEST' | 'WORKING' | 'EXPIRED'
 
 const allCodes: {
     code: string
     reward: string
     date: string
-    status: 'LATEST' | 'WORKING' | 'EXPIRED'
+    status: TabType
 }[] =  [
     {code: 'UPD3SRY', reward: 'Lucky Spins', date: '2025/7/31', status: 'LATEST'},
     {code: 'UPD3', reward: 'Lucky Spins', date: '2025/7/31', status: 'LATEST'},
