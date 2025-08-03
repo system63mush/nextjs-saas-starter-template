@@ -18,13 +18,16 @@ const allCodes: {
     date: string
     status: TabType
 }[] =  [
-    {code: 'UPD3SRY', reward: 'Lucky Spins', date: '2025/7/31', status: 'LATEST'},
-    {code: 'UPD3', reward: 'Lucky Spins', date: '2025/7/31', status: 'LATEST'},
-    {code: 'HOTFIX', reward: 'Lucky Spins', date: '2025/7/31', status: 'LATEST'},
-    {code: 'SRYFORUPD2DELAY', reward: 'UPD 2 Lucky Spins', date: '2025/7/31', status: 'LATEST'},
-    {code: 'YUKIMIYA', reward: 'UPD 2 Lucky Spins', date: '2025/7/31', status: 'LATEST'},
-    {code: 'UPD2', reward: 'UPD 2 Lucky Spins', date: '2025/7/31', status: 'LATEST'},
+    {code: 'SRYFORAIKUDELAY', reward: 'Redeem code for rewards', date: '2025/8/2', status: 'LATEST'},
+    {code: 'AIKU', reward: 'Redeem code for rewards', date: '2025/8/2', status: 'LATEST'},
+    {code: 'VIPERSJAW', reward: 'Redeem code for rewards', date: '2025/8/2', status: 'LATEST'},
 
+    {code: 'UPD3SRY', reward: 'Lucky Spins', date: '2025/7/31', status: 'WORKING'},
+    {code: 'UPD3', reward: 'Lucky Spins', date: '2025/7/31', status: 'WORKING'},
+    {code: 'HOTFIX', reward: 'Lucky Spins', date: '2025/7/31', status: 'WORKING'},
+    {code: 'SRYFORUPD2DELAY', reward: 'UPD 2 Lucky Spins', date: '2025/7/31', status: 'WORKING'},
+    {code: 'YUKIMIYA', reward: 'UPD 2 Lucky Spins', date: '2025/7/31', status: 'WORKING'},
+    {code: 'UPD2', reward: 'UPD 2 Lucky Spins', date: '2025/7/31', status: 'WORKING'},
     {code: '100K', reward: '5 Lucky Spins and 5 Lucky Ego Spins', date: '2025/7/19', status: 'WORKING'},
     {code: 'SRYFORDELAY', reward: '1 Lucky Spin', date: '2025/7/19', status: 'WORKING'},
     {code: 'IFOLLOWATLAS', reward: '1 Lucky Spin (must follow Atlasria)', date: '2025/7/19', status: 'WORKING'},
