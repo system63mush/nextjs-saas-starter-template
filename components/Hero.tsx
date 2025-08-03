@@ -10,7 +10,7 @@ export default function Hero() {
     from-sky-400 via-blue-500 to-indigo-600
     dark:from-blue-300 dark:via-sky-400 dark:to-cyan-500
     mb-6">
-                Goalbound codes July 2025
+                Goalbound codes August 2025
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light">
                 Looking for the latest <strong>Goalbound codes</strong>? You're in the right place.<br/><br/>
