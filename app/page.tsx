@@ -18,9 +18,9 @@ const allCodes: {
     date: string
     status: TabType
 }[] =  [
-    {code: 'SRYFORAIKUDELAY', reward: 'Redeem code for rewards', date: '2025/8/2', status: 'LATEST'},
-    {code: 'AIKU', reward: 'Redeem code for rewards', date: '2025/8/2', status: 'LATEST'},
-    {code: 'VIPERSJAW', reward: 'Redeem code for rewards', date: '2025/8/2', status: 'LATEST'},
+    {code: 'SRYFORAIKUDELAY', reward: 'Redeem code for rewards', date: '2025/8/4', status: 'LATEST'},
+    {code: 'AIKU', reward: 'Redeem code for rewards', date: '2025/8/4', status: 'LATEST'},
+    {code: 'VIPERSJAW', reward: 'Redeem code for rewards', date: '2025/8/4', status: 'LATEST'},
 
     {code: 'UPD3SRY', reward: 'Lucky Spins', date: '2025/7/31', status: 'WORKING'},
     {code: 'UPD3', reward: 'Lucky Spins', date: '2025/7/31', status: 'WORKING'},
