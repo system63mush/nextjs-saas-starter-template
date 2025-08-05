@@ -62,7 +62,7 @@ export default function Page() {
                 <Hero/>
                 <section id="code-list" className="container mx-auto py-24 px-4 md:px-6">
                     <div className="max-w-5xl mx-auto">
-                        <h2 className="text-3xl font-bold text-center mb-2">Latest Working Goalbound Codes</h2>
+                        <h2 className="text-3xl font-bold text-center mb-2">LATEST Working Goalbound Codes</h2>
                         <p className="text-center text-gray-600 mb-6">
                             Get the latest <strong>Goalbound code</strong>. Click to copy. Codes are case-sensitive—please enter them exactly as shown.
                         </p>
