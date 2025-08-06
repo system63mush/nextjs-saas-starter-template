@@ -47,7 +47,7 @@ export const metadata = {
     // These are not official metadata keys, so you must handle them manually if needed
     other: {
         "article:published_time": "2025-07-08T17:19:11.000Z",
-        "article:modified_time": "2025-08-04T11:35:11.000Z",
+        "article:modified_time":  "2025-08-06T21:45:32.000Z",
     },
 }
 

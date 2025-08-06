@@ -9,7 +9,7 @@ export const metadata = {
 
     other: {
         "article:published_time": "2025-08-04T17:19:11.000Z",
-        "article:modified_time": "2025-08-05T13:35:11.000Z",
+        "article:modified_time": "2025-08-06T21:35:11.000Z",
     },
 }
 
@@ -57,7 +57,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
       "publisher": {
         "@type": "Organization",
         "name": "Goalbound",
-        "url": "https://goalbound.codes",
+        "url": "https://goalbound.codes/goalbound-codes-august-2025",
         "logo": {
           "@type": "ImageObject",
           "url": "https://goalbound.codes/products/GoalboundCodes.png"
